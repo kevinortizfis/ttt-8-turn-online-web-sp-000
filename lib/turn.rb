@@ -41,7 +41,7 @@ def turn(board)
     if character == "X" || character == "O"
       move(board,index,character)
       display_board(board)
-    elsif character != "X" || character == "O"
+    elsif character != "X" || character != "O"
        puts "Please enter your player"
        turn(board)
     end

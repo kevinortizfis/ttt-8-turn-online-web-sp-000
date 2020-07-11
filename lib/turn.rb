@@ -35,21 +35,20 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   def exoh(character)
+    puts "Please enter your player"
+    character = gets.strip
     if character == "X" || character == "O"
       move(board,index,character)
       display_board(board)
     else
-      puts "Please enter your player"
-      character = gets.strip
-      exoh(character)
+       exoh(character)
      end
    end
   if valid_move?(board,index) == false
     turn(board)
-  else     puts "Please enter your player"
-      character = gets.strip
-      exoh(character)
+  else exoh(character)
     end
+  end
 end
 
 #def turn(input)

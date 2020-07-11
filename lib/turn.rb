@@ -38,10 +38,11 @@ def turn(board)
     turn(board)
   else puts "Please enter your player"
     character = gets.strip
-    if character == "X" || "O"
+    if character == "X"
       move(board,index,character)
       display_board(board)
-    else puts "Please enter your player"
+    elsif character != "X"
+       puts "Please enter your player"
     end
   end
 end

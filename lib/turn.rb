@@ -51,6 +51,7 @@ def turn(board)
     if character == "X"
       move(board,index,character)
       display_board(board)
+    else exoh
     end
   end
 end

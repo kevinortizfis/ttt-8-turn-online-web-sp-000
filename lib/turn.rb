@@ -44,7 +44,9 @@ def turn(board)
    end
   if valid_move?(board,index) == false
     turn(board)
-  else exoh(character)
+  else     puts "Please enter your player"
+      character = gets.strip
+      exoh(character)
     end
 end
 

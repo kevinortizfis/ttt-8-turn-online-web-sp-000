@@ -38,6 +38,7 @@ def turn(board)
     turn(board)
   else
     character = gets.strip
+  end
     move(board,index,character)
     display_board(board)
   end

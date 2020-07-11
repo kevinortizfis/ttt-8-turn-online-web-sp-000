@@ -40,7 +40,6 @@ def turn(board)
     character = gets.strip
     move(board,index,character)
     display_board(board)
-    end
   end
 end
 

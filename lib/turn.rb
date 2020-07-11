@@ -38,7 +38,7 @@ def turn(board)
     turn(board)
   else puts "Please enter your player"
     character = gets.strip
-    if character == "X"
+    if character == "X" | character == "O"
       move(board,index,character)
       display_board(board)
     elsif character != "X"

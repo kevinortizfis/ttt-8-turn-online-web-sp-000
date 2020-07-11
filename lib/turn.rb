@@ -36,7 +36,7 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board,index) == false
     turn(board)
-  else puts "Please enter your player "
+  else puts "Please enter your player"
     if character == "X" || character == "O"
       move(board,index,character)
       display_board(board)

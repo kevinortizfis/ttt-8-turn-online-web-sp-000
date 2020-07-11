@@ -42,6 +42,8 @@ def turn(board)
       display_board(board)
     else
        exoh(character)
+     end
+   end
   if valid_move?(board,index) == false
     turn(board)
   else puts "Please enter your player"

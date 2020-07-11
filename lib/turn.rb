@@ -48,7 +48,6 @@ def turn(board)
     turn(board)
   else exoh(character)
     end
-  end
 end
 
 #def turn(input)

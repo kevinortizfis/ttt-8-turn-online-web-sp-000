@@ -38,8 +38,9 @@ def turn(board)
     turn(board)
   else
     character = gets.strip
-  move(board,index,character)
-  display_board(board)
+    move(board,index,character)
+    display_board(board)
+  end
 end
 
 #def turn(input)

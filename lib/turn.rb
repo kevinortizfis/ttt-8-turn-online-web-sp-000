@@ -43,6 +43,8 @@ def turn(board)
     elsif character != "X" || character != "O"
        puts "Please enter your player"
        turn(board)
+     end
+   end
 end
 
 #def turn(input)

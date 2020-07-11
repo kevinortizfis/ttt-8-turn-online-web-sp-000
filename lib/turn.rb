@@ -43,6 +43,7 @@ def turn(board)
       display_board(board)
     elsif character != "X"
        puts "Please enter your player"
+       turn(board)
     end
   end
 end

@@ -37,7 +37,8 @@ def turn(board)
   if valid_move?(board,index) == false
     turn(board)
   end
-  move(board,index,"X")
+  character = gets.strip
+  move(board,index,character)
   display_board(board)
 end
 

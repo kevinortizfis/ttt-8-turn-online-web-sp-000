@@ -42,6 +42,8 @@ def turn(board)
       move(board,index,character)
       display_board(board)
     else puts "Please enter your player"
+    end
+  end
 end
 
 #def turn(input)

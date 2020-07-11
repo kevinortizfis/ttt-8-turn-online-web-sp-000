@@ -46,7 +46,7 @@ def turn(board)
    end
   if valid_move?(board,index) == false
     turn(board)
-  else exoh
+  else exoh(character)
     end
 end
 

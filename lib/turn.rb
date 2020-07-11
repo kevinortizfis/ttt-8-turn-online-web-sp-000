@@ -35,8 +35,6 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   def exoh(character)
-    puts "Please enter your player"
-    character = gets.strip
     if character == "X" || character == "O"
       move(board,index,character)
       display_board(board)

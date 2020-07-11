@@ -40,7 +40,7 @@ def turn(board)
     if character == "X" || character = "O"
       move(board,index,character)
       display_board(board)
-    elsif character != "X"
+    else
        exoh(character)
   if valid_move?(board,index) == false
     turn(board)
